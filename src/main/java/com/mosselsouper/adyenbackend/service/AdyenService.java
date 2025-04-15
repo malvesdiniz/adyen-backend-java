@@ -34,7 +34,7 @@ public class AdyenService {
         body.put("reference", request.getReference());
         body.put("merchantAccount", MERCHANT_ACCOUNT);
         body.put("returnUrl", "http://localhost:4200/success");
-        body.put("countryCode", "NL");
+        body.put("countryCode", "BE");
 
         HttpEntity<Map<String, Object>> entity = new HttpEntity<>(body, headers);
 
